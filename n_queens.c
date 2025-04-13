@@ -3,6 +3,7 @@
 #include <stdbool.h>
 
 bool is_valid2(int *board, int n) {
+
     // Para cada rainha (linha)
     for (int i = 0; i < n; i++) {
         // Verificar colisões com todas as rainhas anteriores
@@ -26,17 +27,19 @@ bool is_valid2(int *board, int n) {
     return true;
 }
 
-void _update(int *board, int n, int qnt, int board_pos) {
-    if (board_pos < 0) return;
-    int curr = board[board_pos] + qnt;
-    if (curr >= n) {
-        _update(board, n, 1, board_pos-1);
-    }
-    board[board_pos] = curr % n;
-}
-
 void update(int *board, int n, int qnt) {
-    _update(board, n, qnt, n-1);
+    int board_pos = n-1;
+    
+    while (board_pos >= 0 && qnt > 0) {
+        board[board_pos] += qnt;
+        if (board[board_pos] >= n) {
+            qnt = board[board_pos] / n;
+            board[board_pos] %= n;
+            board_pos--;
+        } else {
+            qnt = 0;
+        }
+    }
 }
 
 void solve_n_queens_brute_force(int n) {
