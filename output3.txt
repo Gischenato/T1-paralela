@@ -1,0 +1,248 @@
+
+=======================================================
+Running n_queens_threads with board size 5:
+=======================================================
+Thread 4 of 8 iniciada
+Thread 4 encontrou a solução
+. . . Q . 
+Q . . . . 
+. . Q . . 
+. . . . Q 
+. Q . . . 
+
+390 configurations checked
+Thread 5 of 8 iniciada
+Thread 6 of 8 iniciada
+Thread 3 of 8 iniciada
+Thread 7 of 8 iniciada
+Thread 2 of 8 iniciada
+Thread 0 of 8 iniciada
+Thread 1 of 8 iniciada
+Tempo total de execução: 0.0014 segundos
+
+real	0m0.002s
+user	0m0.004s
+sys	0m0.001s
+=======================================================
+Executed on: Sat Apr 12 21:17:46 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 6:
+=======================================================
+Thread 2 of 8 iniciada
+Thread 6 of 8 iniciada
+Thread 5 of 8 iniciada
+Thread 0 of 8 iniciada
+Thread 6 encontrou a solução
+. . . Q . . 
+Q . . . . . 
+. . . . Q . 
+. Q . . . . 
+. . . . . Q 
+. . Q . . Thread 1 of 8 iniciada
+. 
+
+4043 configurations checked
+Thread 7 of 8 iniciada
+Thread 3 of 8 iniciada
+Thread 4 of 8 iniciada
+Tempo total de execução: 0.0010 segundos
+
+real	0m0.001s
+user	0m0.003s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 21:17:46 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 7:
+=======================================================
+Thread 0 of 8 iniciada
+Thread 3 of 8 iniciada
+Thread 5 of 8 iniciada
+Thread 7 of 8 iniciada
+Thread 2 of 8 iniciada
+Thread 4 of 8 iniciada
+Thread 1 of 8 iniciada
+Thread 3 encontrou a solução
+Q . . . . . . 
+. . . Q . . . 
+. . . . . . Q 
+. . Q . . . . 
+. . . . . Q . 
+. Q . . . . . 
+. . . . Q . . 
+
+9396 configurations checked
+Thread 6 of 8 iniciada
+Tempo total de execução: 0.0022 segundos
+
+real	0m0.003s
+user	0m0.002s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 21:17:46 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 8:
+=======================================================
+Thread 4 of 8 iniciada
+Thread 6 of 8 iniciada
+Thread 3 of 8 iniciada
+Thread 3 encontrou a solução
+Q . . . . . . . 
+. . . . Q . . . 
+. . . . . . . Q 
+. . . . . Q . . 
+. . Q . . . . . 
+. . . . . . Q . 
+. Q . . . . . . 
+. . . Q . . . . 
+
+162482 configurations checked
+Thread 5 of 8 iniciada
+Thread 2 of 8 iniciada
+Thread 7 of 8 iniciada
+Thread 1 of 8 iniciada
+Thread 0 of 8 iniciada
+Tempo total de execução: 0.0011 segundos
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 21:17:46 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 9:
+=======================================================
+Thread 1 of 8 iniciada
+Thread 0 of 8 iniciada
+Thread 6 of 8 iniciada
+Thread 5 of 8 iniciada
+Thread 2 of 8 iniciada
+Thread 3 of 8 iniciada
+Thread 7 of 8 iniciada
+Thread 4 of 8 iniciada
+Thread 4 encontrou a solução
+Q . . . . . . . . 
+. . Q . . . . . . 
+. . . . . Q . . . 
+. . . . . . . Q . 
+. Q . . . . . . . 
+. . . Q . . . . . 
+. . . . . . . . Q 
+. . . . . . Q . . 
+. . . . Q . . . . 
+
+1580743 configurations checked
+Tempo total de execução: 0.0072 segundos
+
+real	0m0.008s
+user	0m0.009s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 21:17:46 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 10:
+=======================================================
+Thread 0 of 8 iniciada
+Thread 1 of 8 iniciada
+Thread 4 of 8 iniciada
+Thread 7 of 8 iniciada
+Thread 5 of 8 iniciada
+Thread 3 of 8 iniciada
+Thread 6 of 8 iniciada
+Thread 2 of 8 iniciada
+Thread 3 encontrou a solução
+Q . . . . . . . . . 
+. . Q . . . . . . . 
+. . . . . Q . . . . 
+. . . . . . . . Q . 
+. . . . . . Q . . . 
+. . . . . . . . . Q 
+. . . Q . . . . . . 
+. Q . . . . . . . . 
+. . . . Q . . . . . 
+. . . . . . . Q . . 
+
+32336644 configurations checked
+Tempo total de execução: 0.1256 segundos
+
+real	0m0.126s
+user	0m0.986s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 21:17:46 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 11:
+=======================================================
+Thread 0 of 8 iniciada
+Thread 5 of 8 iniciada
+Thread 4 of 8 iniciada
+Thread 2 of 8 iniciada
+Thread 6 of 8 iniciada
+Thread 3 of 8 iniciada
+Thread 1 of 8 iniciada
+Thread 7 of 8 iniciada
+Thread 7 encontrou a solução
+Q . . . . . . . . . . 
+. . Q . . . . . . . . 
+. . . . Q . . . . . . 
+. . . . . . Q . . . . 
+. . . . . . . . Q . . 
+. . . . . . . . . . Q 
+. Q . . . . . . . . . 
+. . . Q . . . . . . . 
+. . . . . Q . . . . . 
+. . . . . . . Q . . . 
+. . . . . . . . . Q . 
+
+713257032 configurations checked
+Tempo total de execução: 2.9482 segundos
+
+real	0m2.949s
+user	0m23.573s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 21:17:49 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 12:
+=======================================================
+Thread 0 of 8 iniciada
+Thread 4 of 8 iniciada
+Thread 7 of 8 iniciada
+Thread 6 of 8 iniciada
+Thread 5 of 8 iniciada
+Thread 3 of 8 iniciada
+Thread 2 of 8 iniciada
+Thread 1 of 8 iniciada
+Thread 3 encontrou a solução
+Q . . . . . . . . . . . 
+. . Q . . . . . . . . . 
+. . . . Q . . . . . . . 
+. . . . . . . Q . . . . 
+. . . . . . . . . Q . . 
+. . . . . . . . . . . Q 
+. . . . . Q . . . . . . 
+. . . . . . . . . . Q . 
+. Q . . . . . . . . . . 
+. . . . . . Q . . . . . 
+. . . . . . . . Q . . . 
+. . . Q . . . . . . . . 
+
+18480063505 configurations checked
+Tempo total de execução: 93.0846 segundos
+
+real	1m33.085s
+user	12m24.616s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 21:19:22 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 13:
+=======================================================

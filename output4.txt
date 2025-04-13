@@ -1,0 +1,440 @@
+
+=======================================================
+Running n_queens_threads with board size 5 and 16 threads:
+=======================================================
+Thread 3 encontrou a solução
+
+real	0m0.004s
+user	0m0.025s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:22:55 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 6 and 16 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.003s
+user	0m0.005s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:22:55 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 7 and 16 threads:
+=======================================================
+Thread 8 encontrou a solução
+
+real	0m0.002s
+user	0m0.011s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:22:55 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 8 and 16 threads:
+=======================================================
+Thread 2 encontrou a solução
+
+real	0m0.002s
+user	0m0.023s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:22:55 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 9 and 16 threads:
+=======================================================
+Thread 14 encontrou a solução
+
+real	0m0.008s
+user	0m0.009s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:22:55 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 10 and 16 threads:
+=======================================================
+Thread 14 encontrou a solução
+
+real	0m0.127s
+user	0m1.907s
+sys	0m0.010s
+=======================================================
+Executed on: Sat Apr 12 22:22:55 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 11 and 16 threads:
+=======================================================
+Thread 12 encontrou a solução
+
+real	0m3.306s
+user	0m52.823s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:22:59 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 12 and 16 threads:
+=======================================================
+Thread 7 encontrou a solução
+
+real	1m26.117s
+user	22m57.820s
+sys	0m0.010s
+=======================================================
+Executed on: Sat Apr 12 22:24:25 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 5 and 8 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.001s
+user	0m0.003s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:24:25 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 6 and 8 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.001s
+user	0m0.003s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:24:25 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 7 and 8 threads:
+=======================================================
+Thread 5 encontrou a solução
+
+real	0m0.001s
+user	0m0.002s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:24:25 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 8 and 8 threads:
+=======================================================
+Thread 3 encontrou a solução
+
+real	0m0.002s
+user	0m0.005s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:24:25 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 9 and 8 threads:
+=======================================================
+Thread 4 encontrou a solução
+
+real	0m0.010s
+user	0m0.063s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:24:25 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 10 and 8 threads:
+=======================================================
+Thread 6 encontrou a solução
+
+real	0m0.175s
+user	0m1.342s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:24:25 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 11 and 8 threads:
+=======================================================
+Thread 7 encontrou a solução
+
+real	0m3.545s
+user	0m28.282s
+sys	0m0.040s
+=======================================================
+Executed on: Sat Apr 12 22:24:29 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 12 and 8 threads:
+=======================================================
+Thread 3 encontrou a solução
+
+real	1m30.541s
+user	12m4.279s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:25:59 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 5 and 4 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:25:59 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 6 and 4 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+=======================================================
+Executed on: Sat Apr 12 22:25:59 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 7 and 4 threads:
+=======================================================
+Thread 3 encontrou a solução
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:25:59 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 8 and 4 threads:
+=======================================================
+Thread 3 encontrou a solução
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:25:59 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 9 and 4 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.016s
+user	0m0.056s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:25:59 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 10 and 4 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.278s
+user	0m1.071s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:26:00 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 11 and 4 threads:
+=======================================================
+Thread 3 encontrou a solução
+
+real	0m5.987s
+user	0m23.924s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:26:05 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 12 and 4 threads:
+=======================================================
+Thread 3 encontrou a solução
+
+real	2m28.428s
+user	9m53.690s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:28:34 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 5 and 2 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:28:34 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 6 and 2 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:28:34 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 7 and 2 threads:
+=======================================================
+Thread 1 encontrou a solução
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:28:34 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 8 and 2 threads:
+=======================================================
+Thread 1 encontrou a solução
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:28:34 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 9 and 2 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.027s
+user	0m0.044s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:28:34 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 10 and 2 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.503s
+user	0m0.987s
+sys	0m0.010s
+=======================================================
+Executed on: Sat Apr 12 22:28:34 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 11 and 2 threads:
+=======================================================
+Thread 1 encontrou a solução
+
+real	0m10.489s
+user	0m20.961s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:28:45 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 12 and 2 threads:
+=======================================================
+Thread 1 encontrou a solução
+
+real	4m36.162s
+user	9m12.323s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:33:21 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 5 and 1 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:33:21 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 6 and 1 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:33:21 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 7 and 1 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:33:21 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 8 and 1 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.006s
+user	0m0.004s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:33:21 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 9 and 1 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.048s
+user	0m0.047s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:33:21 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 10 and 1 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m0.954s
+user	0m0.948s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:33:22 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 11 and 1 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	0m21.166s
+user	0m21.167s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:33:43 -03 2025
+
+=======================================================
+Running n_queens_threads with board size 12 and 1 threads:
+=======================================================
+Thread 0 encontrou a solução
+
+real	9m41.436s
+user	9m41.436s
+sys	0m0.000s
+=======================================================
+Executed on: Sat Apr 12 22:43:25 -03 2025
