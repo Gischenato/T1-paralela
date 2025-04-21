@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -O2
+CFLAGS = -Wall -Wextra -O3
 TARGET2 = n_queens
 SRC2 = n_queens.c
 TARGET3 = n_queens_threads
