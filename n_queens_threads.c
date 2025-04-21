@@ -37,42 +37,49 @@ void update(int *board, int n, int qnt) {
     _update(board, n, qnt, n-1);
 }
 
-bool solve_n_queens_brute_force(int n, int start, int num_threads, int *found, int print_board) {
+void print_board(int *board, int n) {
+    for (int i = 0; i < n; i++) {
+        int pos = board[i];
+        for(int j = 0 ; j<n; j++){
+            printf("%c ", j==pos ? 'Q' : '.');
+        }
+        printf("\n");
+    }
+    printf("\n");
+}
 
-    bool solution_found = false;
+bool solve_n_queens_brute_force(int n, int start, int num_threads, int *found, int should_print_board, int total_solutions_to_find) {
+
+    bool all_solutions_found = false;
     unsigned long long configurations_checked = 0;
 
     
     int* board = calloc(n, sizeof(int));
     update(board, n, start);
 
-    while (!solution_found) {
-        if (*found) return false;
+    while (!all_solutions_found) {
+        if (*found >= total_solutions_to_find) return false;
         configurations_checked++;
 
         bool valid = is_valid2(board, n);
 
         if (valid) {
-            solution_found = true;
+            all_solutions_found = *found >= total_solutions_to_find;
 
             #pragma omp atomic write
-            *found = 1;
+            *found = *found + 1;
 
-            printf("Thread %d encontrou a solução\n", start);
-            break;
-        } else {
-            update(board, n, num_threads);
-        }
+            printf("Thread %d encontrou uma solução\n", start);
+            // break;
+            // print_board(board, n);
+        } 
+
+        update(board, n, num_threads);
     }
 
-    if (print_board) {
-        for (int i = 0; i < n; i++) {
-            int pos = board[i];
-            for(int j = 0 ; j<n; j++){
-                printf("%c ", j==pos ? 'Q' : '.');
-            }
-            printf("\n");
-        }
+    if (should_print_board) {
+        print_board(board, n);
+
         printf("\n");
         printf("%llu configurations checked\n", configurations_checked);
     }
@@ -81,20 +88,24 @@ bool solve_n_queens_brute_force(int n, int start, int num_threads, int *found, i
 
 int main(int argc, char *argv[]) {
     // Check if board size and number of threads were provided
-    if (argc < 3 || argc > 4) {
-        printf("Usage: %s <board_size> <num_threads> [print_board=1]\n", argv[0]);
+    if (argc < 3 || argc > 5) {
+        printf("Usage: %s <board_size> <num_threads> <total_solutions_to_find> [should_print_board=1]\n", argv[0]);
         printf("       print_board: 1 para imprimir o tabuleiro (padrão), 0 para não imprimir\n");
         return 1;
     }
+
+    // Quantidade de soluções que devem ser encontradas
     
     // Parse board size and number of threads
     int n = atoi(argv[1]);
     int num_threads = atoi(argv[2]);
+    int qnt = atoi(argv[3]);
+    if (qnt == 0) qnt = 1;
     
     // Parse print_board flag (default is 1 - print board)
-    int print_board = 1;
+    int should_print_board = 1;
     if (argc == 4) {
-        print_board = atoi(argv[3]);
+        should_print_board = atoi(argv[4]);
     }
     
     // Validate board size
@@ -111,7 +122,7 @@ int main(int argc, char *argv[]) {
     #pragma omp parallel shared(found)
     {
         int thread_id = omp_get_thread_num();
-        solve_n_queens_brute_force(n, thread_id, num_threads, &found, print_board);
+        solve_n_queens_brute_force(n, thread_id, num_threads, &found, should_print_board, qnt);
     }
     
     return 0;
